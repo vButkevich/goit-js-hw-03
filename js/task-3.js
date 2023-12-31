@@ -36,9 +36,9 @@ console.log(filterArray([12, 24, 8, 41, 76], 20)); // [24, 41, 76]
 
         function filterArray(numbers, value) {
             let array = [];
-            for (let item of numbers) {
-                if (item > value) {
-                    array.push(item);
+            for (let number of numbers) {
+                if (number > value) {
+                    array.push(number);
                 }
             }
             return array;
